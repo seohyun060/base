@@ -3,11 +3,7 @@ import Home from '../Home';
 type Props = {};
 
 const HomeContainer = (props: Props) => {
-  return (
-    <>
-      <Home />
-    </>
-  );
+	return <Home />;
 };
 
 export default HomeContainer;
